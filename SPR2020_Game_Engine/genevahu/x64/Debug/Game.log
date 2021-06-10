@@ -1,0 +1,62 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\BasicMesh.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\BloomMask.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Constants.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Copy.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\GaussianHorizontal.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\GaussianVertical.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Mesh.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Normal.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Phong.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Simple.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Skinned.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Unlit.cso
+  stdafx.cpp
+  Character.cpp
+  followCam.cpp
+  player.cpp
+  PointLight.cpp
+  game.cpp
+  main.cpp
+  Compiling...
+  Generating Code...
+Engine.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'Engine.lib(WICTextureLoader.obj)' or at 'C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\DirectXTK.pdb'; linking object as if no debug info
+Engine.lib(pch.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'Engine.lib(pch.obj)' or at 'C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\DirectXTK.pdb'; linking object as if no debug info
+Engine.lib(DDSTextureLoader.obj) : warning LNK4099: PDB 'DirectXTK.pdb' was not found with 'Engine.lib(DDSTextureLoader.obj)' or at 'C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\DirectXTK.pdb'; linking object as if no debug info
+  Game.vcxproj -> C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Game.exe
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\internal\ieee754.h(25): warning C26495: Variable 'rapidjson::internal::Double::<unnamed-tag>::d_' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\error\error.h(104): warning C26812: The enum type 'rapidjson::ParseErrorCode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Source\Components\player.cpp(21): warning C26812: The enum type 'Player::State' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Source\game.cpp(59): warning C26495: Variable 'Game::m_JobManager' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(1405): warning C26812: The enum type 'rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::IterativeParsingState' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(1409): warning C26812: The enum type 'rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::Token' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(835): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(846): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(856): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(880): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(897): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\document.h(471): warning C26812: The enum type 'rapidjson::Type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\document.h(506): warning C26812: The enum type 'rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::<unnamed-enum-kBoolFlag>' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).

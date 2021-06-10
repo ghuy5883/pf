@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\internal\</FILEPATH>
+      <FILENAME>ieee754.h</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'rapidjson::internal::Double::&lt;unnamed-tag&gt;::d_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>rapidjson::internal::Double::{ctor}</FUNCTION>
+    <DECORATED>??0Double@internal@rapidjson@@QEAA@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>rapidjson::internal::Double::&lt;unnamed-tag&gt;::d_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\internal\</FILEPATH>
+      <FILENAME>ieee754.h</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'rapidjson::internal::Double::&lt;unnamed-tag&gt;::u_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>rapidjson::internal::Double::{ctor}</FUNCTION>
+    <DECORATED>??0Double@internal@rapidjson@@QEAA@XZ</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>rapidjson::internal::Double::&lt;unnamed-tag&gt;::u_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\error\</FILEPATH>
+      <FILENAME>error.h</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'rapidjson::ParseErrorCode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>rapidjson::ParseResult::{ctor}</FUNCTION>
+    <DECORATED>??0ParseResult@rapidjson@@QEAA@XZ</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,60 @@
+﻿  stdafx.cpp
+  Animation.cpp
+  AnimationJob.cpp
+  assetManager.cpp
+  BoneTransform.cpp
+  Camera.cpp
+  CollisionComponent.cpp
+  Component.cpp
+  DbgAssert.cpp
+  engineMath.cpp
+  engineMath_UnitTest.cpp
+  engineMemory.cpp
+  Graphics.cpp
+  Job.cpp
+  JobManager.cpp
+  jsonUtil.cpp
+  mesh.cpp
+  Physics.cpp
+  Profiler.cpp
+  RenderObj.cpp
+  Shader.cpp
+  Compiling...
+  Generating Code...
+  Compiling...
+  simdMath.cpp
+  simdMath_UnitTest.cpp
+  SimpleRotate.cpp
+  Skeleton.cpp
+  SkinnedObj.cpp
+  stringUtil.cpp
+  texture.cpp
+  VertexBuffer.cpp
+  Worker.cpp
+  Compiling...
+  Generating Code...
+  Engine.vcxproj -> C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Engine.lib
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\internal\ieee754.h(25): warning C26495: Variable 'rapidjson::internal::Double::<unnamed-tag>::d_' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\error\error.h(104): warning C26812: The enum type 'rapidjson::ParseErrorCode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(1405): warning C26812: The enum type 'rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::IterativeParsingState' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(1409): warning C26812: The enum type 'rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::Token' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(835): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(846): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(856): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(880): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\reader.h(897): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\document.h(471): warning C26812: The enum type 'rapidjson::Type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\external\rapidjson\include\rapidjson\document.h(506): warning C26812: The enum type 'rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::<unnamed-enum-kBoolFlag>' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\Graphics.cpp(19): warning C26495: Variable 'Graphics::mRenderTextureView' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\Graphics.cpp(70): warning C26812: The enum type 'D3D_FEATURE_LEVEL' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\Graphics.cpp(248): warning C26812: The enum type 'D3D11_BIND_FLAG' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\Graphics.cpp(313): warning C26812: The enum type 'D3D11_COMPARISON_FUNC' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\Graphics.cpp(347): warning C26812: The enum type 'D3D11_BLEND' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\mesh.cpp(14): warning C26495: Variable 'Mesh::mTexture' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\mesh.cpp(155): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\mesh.cpp(211): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\SimpleRotate.cpp(5): warning C26495: Variable 'SimpleRotate::m_Speed' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\Skeleton.h(15): warning C26495: Variable 'Skeleton::Bone::mParentIndex' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\texture.cpp(8): warning C26495: Variable 'Texture::mSubResource' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\texture.cpp(79): warning C26812: The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\VertexBuffer.cpp(12): warning C26812: The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).

@@ -1,0 +1,8 @@
+Name: Update, Avg 0.090814 (ms), max 35.404200 (ms)
+Name: _60FPSDelayLoop, Avg 0.487776 (ms), max 42.368600 (ms)
+Name: FrameRender, Avg 15.925796 (ms), max 109.395400 (ms)
+Name: BeginFrameRender, Avg 0.068748 (ms), max 4.127100 (ms)
+Name: ActivateCamera, Avg 0.048620 (ms), max 5.350600 (ms)
+Name: DrawObjects, Avg 0.578018 (ms), max 59.009000 (ms)
+Name: RenderLighting, Avg 0.038836 (ms), max 3.468900 (ms)
+Name: PresentRenderedFrame, Avg 14.327377 (ms), max 45.426900 (ms)

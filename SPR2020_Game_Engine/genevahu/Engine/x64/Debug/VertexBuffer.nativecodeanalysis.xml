@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\</FILEPATH>
+      <FILENAME>VertexBuffer.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>VertexBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0VertexBuffer@@QEAA@PEAVGraphics@@PEBXII1II@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

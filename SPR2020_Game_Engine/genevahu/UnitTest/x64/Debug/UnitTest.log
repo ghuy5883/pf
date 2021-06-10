@@ -1,0 +1,3 @@
+﻿  UnitTest.cpp
+Engine.lib(CollisionComponent.obj) : error LNK2019: unresolved external symbol "public: class Physics * __cdecl Game::GetPhysics(void)const " (?GetPhysics@Game@@QEBAPEAVPhysics@@XZ) referenced in function "public: __cdecl CollisionComponent::CollisionComponent(class RenderObj *)" (??0CollisionComponent@@QEAA@PEAVRenderObj@@@Z)
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\UnitTest.exe : fatal error LNK1120: 1 unresolved externals

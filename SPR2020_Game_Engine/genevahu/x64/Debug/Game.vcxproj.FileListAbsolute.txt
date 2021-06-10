@@ -1,0 +1,4 @@
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Game.exe.lastcodeanalysissucceeded
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Game.exe
+C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\x64\Debug\Game.pdb

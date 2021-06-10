@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\</FILEPATH>
+      <FILENAME>texture.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Texture::mSubResource' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Texture::{ctor}</FUNCTION>
+    <DECORATED>??0Texture@@QEAA@PEAVGraphics@@@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Texture::mSubResource</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\genev\Documents\ITP485\labs-ghuy5883\Lab11_Bloom\Engine\</FILEPATH>
+      <FILENAME>texture.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'DXGI_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Texture::CreateRenderTarget</FUNCTION>
+    <DECORATED>?CreateRenderTarget@Texture@@QEAAPEAUID3D11RenderTargetView@@HHW4DXGI_FORMAT@@@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
